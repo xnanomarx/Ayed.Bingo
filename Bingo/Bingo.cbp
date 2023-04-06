@@ -43,6 +43,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="comprarCarton.h" />
+		<Unit filename="creacionAgencias.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="creacionAgencias.h" />
+		<Unit filename="crearUsuario.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearUsuario.h" />
 		<Unit filename="jugador.c">
 			<Option compilerVar="CC" />
 		</Unit>
