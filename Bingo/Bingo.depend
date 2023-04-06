@@ -95,50 +95,51 @@
 
 1680798070 source:c:\users\admin\onedrive\documentos\ayed\bingo\vercarton.c
 
-1680808949 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
 	"Agencia.h"
 	<stdio.h>
 	<stdlib.h>
 
-1680563490 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\agencia.h
+1680809879 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.h
 	<stdio.h>
 	<stdlib.h>
 	"util.h"
 
-1680319755 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\util.h
+1680809879 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.h
 
-1680797961 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.c
+	"Carton.h"
 
-1680562330 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugador.c
+1680809879 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.h
+	<stdio.h>
+	<stdlib.h>
+	"Agencia.h"
+	"util.h"
+
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
+
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
+
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vecesparaganar.c
+
+1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
+
+1680810649 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugador.c
 	<stdlib.h>
 	<stdio.h>
 	"util.h"
 	"jugador.h"
 
-1680562328 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugador.h
-
-1680798026 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
-
-1680797896 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\main.c
-	<stdio.h>
-	<stdlib.h>
-	<time.h>
-
-1680318162 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\util.c
-	<stdio.h>
-	<stdlib.h>
-	"util.h"
-
-1680798115 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\vecesparaganar.c
-
-1680798070 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
-
-1680811077 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.c
+1680810578 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugador.h
 	"Carton.h"
-
-1680811077 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.h
-	<stdio.h>
-	<stdlib.h>
-	"Agencia.h"
-	"util.h"
 
