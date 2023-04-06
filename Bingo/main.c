@@ -8,10 +8,11 @@ int main()
     int seleccionar=1;
 
     while(seleccionar!=0){
-        printf("1. Comprar carton\n");
-        printf("2. Jugar\n");
-        printf("3. Ver tu carton\n");
-        printf("4. Cuantas veces tuve que jugar para ganar\n");
+        printf("1. Jugar\n");
+        printf("2. Comprar carton\n");
+        printf("3. Crear usuario\n");
+        printf("4. Ver tu carton\n");
+        printf("5. Cuantas veces tuve que jugar para ganar\n");
         printf("0. Salir\n\n");
         printf("Seleccione una opcion: ");
         scanf("%d", &seleccionar);
@@ -26,6 +27,9 @@ int main()
             system("cls");
             break;
         case 4:
+            system("cls");
+            break;
+        case 5:
             system("cls");
             break;
         case 0:
