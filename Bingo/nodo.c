@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Nodo.h"
-#include "Util.h"
+#include "nodo.h"
+#include "util.h"
 
 const void* SinNodoSgte=NULL;
 

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "util.h"
+
 
 void* obtenerMemoria(size_t tamanio){
     void* ptr=malloc(tamanio);

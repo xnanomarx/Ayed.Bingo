@@ -1,10 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include "listas.h"
 
 int main()
 {
 
+    PtrLista listaAgencias=crearLista();
+    crearAgencias(listaAgencias);
     int seleccionar=1;
 
     while(seleccionar!=0){

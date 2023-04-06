@@ -1,5 +1,6 @@
 #ifndef NODO_H_INCLUDED
 #define NODO_H_INCLUDED
+
 #include <stdio.h>
 #include <stdlib.h>
 typedef void* PtrDato;
@@ -56,4 +57,5 @@ void setSiguiente(PtrNodo esteNodo, PtrNodo siguienteNodo);
 // nodo: puntero al nodo
 // No devuelve valor
 PtrNodo getSiguiente(PtrNodo nodo);
+
 #endif // NODO_H_INCLUDED

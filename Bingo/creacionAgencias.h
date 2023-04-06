@@ -1,6 +1,6 @@
 #ifndef CREACIONAGENCIAS_H_INCLUDED
 #define CREACIONAGENCIAS_H_INCLUDED
 
-
+void crearAgencias(PtrLista listaAgencias);
 
 #endif // CREACIONAGENCIAS_H_INCLUDED
