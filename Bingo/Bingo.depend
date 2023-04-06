@@ -224,10 +224,11 @@
 
 1680815729 c:\users\user\documents\tp final\ayed.bingo\bingo\util.h
 
-1680815729 source:c:\users\user\documents\tp final\ayed.bingo\bingo\carton.c
+1680818069 source:c:\users\user\documents\tp final\ayed.bingo\bingo\carton.c
 	"Carton.h"
+	"time.h"
 
-1680815729 c:\users\user\documents\tp final\ayed.bingo\bingo\carton.h
+1680818069 c:\users\user\documents\tp final\ayed.bingo\bingo\carton.h
 	<stdio.h>
 	<stdlib.h>
 	"Agencia.h"
@@ -248,22 +249,22 @@
 
 1680815729 source:c:\users\user\documents\tp final\ayed.bingo\bingo\jugar.c
 
-1680816181 source:c:\users\user\documents\tp final\ayed.bingo\bingo\main.c
+1680818057 source:c:\users\user\documents\tp final\ayed.bingo\bingo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"listas.h"
 
-1680816584 c:\users\user\documents\tp final\ayed.bingo\bingo\listas.h
+1680818057 c:\users\user\documents\tp final\ayed.bingo\bingo\listas.h
 	<stdbool.h>
 	"nodo.h"
 	"util.h"
 
-1680816571 c:\users\user\documents\tp final\ayed.bingo\bingo\nodo.h
+1680818057 c:\users\user\documents\tp final\ayed.bingo\bingo\nodo.h
 	<stdio.h>
 	<stdlib.h>
 
-1680816181 source:c:\users\user\documents\tp final\ayed.bingo\bingo\util.c
+1680818057 source:c:\users\user\documents\tp final\ayed.bingo\bingo\util.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -273,7 +274,7 @@
 
 1680815729 source:c:\users\user\documents\tp final\ayed.bingo\bingo\vercarton.c
 
-1680816275 source:c:\users\user\documents\tp final\ayed.bingo\bingo\creacionagencias.c
+1680818057 source:c:\users\user\documents\tp final\ayed.bingo\bingo\creacionagencias.c
 	<stdlib.h>
 	<stdio.h>
 	"listas.h"
@@ -284,4 +285,10 @@
 	<stdlib.h>
 	"nodo.h"
 	"util.h"
+
+1680818057 source:c:\users\user\documents\tp final\ayed.bingo\bingo\listas.c
+	<stdbool.h>
+	"listas.h"
+	"util.h"
+	"nodo.h"
 
