@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1680319755 source:c:\users\admin\onedrive\documentos\github\tpintegrador1\bingo\agencia.c
+	"Agencia.h"
+
+1680319755 source:c:\users\admin\onedrive\documentos\github\tpintegrador1\bingo\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1680318162 source:c:\users\admin\onedrive\documentos\github\tpintegrador1\bingo\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680319755 c:\users\admin\onedrive\documentos\github\tpintegrador1\bingo\util.h
+
+1680318415 c:\users\admin\onedrive\documentos\github\tpintegrador1\bingo\agencia.h
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680576169 source:c:\users\legio\onedrive\desktop\bingo\agencia.c
+	"Agencia.h"
+	<stdio.h>
+	<stdlib.h>
+
+1680563490 c:\users\legio\onedrive\desktop\bingo\agencia.h
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680319755 c:\users\legio\onedrive\desktop\bingo\util.h
+
+1680319775 source:c:\users\legio\onedrive\desktop\bingo\carton.c
+	"Carton.h"
+
+1680563503 c:\users\legio\onedrive\desktop\bingo\carton.h
+	<stdio.h>
+	<stdlib.h>
+	"Agencia.h"
+	"util.h"
+
+1680797668 source:c:\users\legio\onedrive\desktop\bingo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1680318162 source:c:\users\legio\onedrive\desktop\bingo\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680562330 source:c:\users\legio\onedrive\desktop\bingo\jugador.c
+	<stdlib.h>
+	<stdio.h>
+	"util.h"
+	"jugador.h"
+
+1680562328 c:\users\legio\onedrive\desktop\bingo\jugador.h
+
+1680576169 source:c:\users\admin\onedrive\documentos\ayed\bingo\agencia.c
+	"Agencia.h"
+	<stdio.h>
+	<stdlib.h>
+
+1680563490 c:\users\admin\onedrive\documentos\ayed\bingo\agencia.h
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680319755 c:\users\admin\onedrive\documentos\ayed\bingo\util.h
+
+1680562330 source:c:\users\admin\onedrive\documentos\ayed\bingo\jugador.c
+	<stdlib.h>
+	<stdio.h>
+	"util.h"
+	"jugador.h"
+
+1680562328 c:\users\admin\onedrive\documentos\ayed\bingo\jugador.h
+
+1680797896 source:c:\users\admin\onedrive\documentos\ayed\bingo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1680318162 source:c:\users\admin\onedrive\documentos\ayed\bingo\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680797961 source:c:\users\admin\onedrive\documentos\ayed\bingo\comprarcarton.c
+
+1680798026 source:c:\users\admin\onedrive\documentos\ayed\bingo\jugar.c
+
+1680798115 source:c:\users\admin\onedrive\documentos\ayed\bingo\vecesparaganar.c
+
+1680798070 source:c:\users\admin\onedrive\documentos\ayed\bingo\vercarton.c
+
