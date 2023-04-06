@@ -21,6 +21,6 @@ int* getNumeroCarton(cartonPtr carton);
 
 char* getDireccion(cartonPtr carton);
 
-
+void mostrarCarton(cartonPtr carton);
 
 #endif // CARTON_H_INCLUDED

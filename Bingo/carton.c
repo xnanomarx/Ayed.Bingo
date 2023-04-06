@@ -27,5 +27,12 @@ char* getDireccion(cartonPtr carton){
     return carton->agenciaCarton->direccion;
 }
 
+void mostrarCarton(cartonPtr carton){
+    system("cls");
+    printf("------ CARTON -------\n");
+    printf("Vendido por: %s\n",carton->agenciaCarton->nombreAgencia);
+    printf("Direccion: %s\n ------ JUGADA ------\n",carton->agenciaCarton->direccion);
+    printf("%d &d &d &d &d &d &d &d\n",carton->numero[0],carton->numero[1],carton->numero[2],carton->numero[3],carton->numero[4],carton->numero[5],carton->numero[6],carton->numero[7]);
 
+}
 
