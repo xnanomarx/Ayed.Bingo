@@ -1,7 +1,7 @@
 #include <stdbool.h>
-#include "Lista.h"
-#include "Util.h"
-#include "Nodo.h"
+#include "lista.h"
+#include "util.h"
+#include "nodo.h"
 
 
 // definida en Lista.c
