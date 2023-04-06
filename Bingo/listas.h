@@ -13,9 +13,9 @@ typedef Lista* PtrLista;
 
 const void* FinLista;
 
-/******************************************************************************/
+/**************************/
 /* Definicion de Primitivas */
-/*--------------------------*/
+//--------------------------/
 
 // Operación de construccion (constructor)
 // Precondicion: la lista no debe haber sido creada.
