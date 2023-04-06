@@ -17,6 +17,8 @@ typedef carton* cartonPtr;
 
 cartonPtr crearCarton(int* numero,agenciaPtr agencia);
 
+cartonPtr crearCartonAleatorio(agenciaPtr agencia);
+
 cartonPtr destruirCarton(cartonPtr carton);
 
 int* getNumeroCarton(cartonPtr carton);

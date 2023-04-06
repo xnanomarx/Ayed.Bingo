@@ -2,8 +2,8 @@
 #define LISTA_H_INCLUDED
 
 #include <stdbool.h>
-#include "Nodo.h"
-#include "Util.h"
+#include "nodo.h"
+#include "util.h"
 
 typedef struct Lista{
      PtrNodo primero;
