@@ -110,7 +110,7 @@
 1680813237 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.c
 	"Carton.h"
 
-1680813237 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.h
+1680816107 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.h
 	<stdio.h>
 	<stdlib.h>
 	"Agencia.h"
@@ -120,13 +120,13 @@
 
 1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
 
-1680815738 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\main.c
+1680816059 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"listas.h"
 
-1680815052 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.c
+1680816059 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -203,7 +203,7 @@
 	<stdio.h>
 	<stdlib.h>
 
-1680815588 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\creacionagencias.c
+1680816059 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\creacionagencias.c
 	<stdlib.h>
 	<stdio.h>
 	"listas.h"
@@ -211,7 +211,7 @@
 
 1680812593 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\crearusuario.c
 
-1680814238 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\listas.c
+1680816059 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\listas.c
 	<stdbool.h>
 	"listas.h"
 	"util.h"
@@ -222,17 +222,17 @@
 	"Nodo.h"
 	"Util.h"
 
-1680814012 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\nodo.h
+1680816059 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\nodo.h
 	<stdio.h>
 	<stdlib.h>
 
-1680814085 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\nodo.c
+1680816059 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\nodo.c
 	<stdio.h>
 	<stdlib.h>
 	"nodo.h"
 	"util.h"
 
-1680814085 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\listas.h
+1680816059 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\listas.h
 	<stdbool.h>
 	"nodo.h"
 	"util.h"

@@ -8,6 +8,8 @@
 
 typedef struct carton{
     int* numero;
+    char* fechaEmision;
+    char* fechaJuego;
     agenciaPtr agenciaCarton;
 }carton;
 
