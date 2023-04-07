@@ -59,10 +59,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="jugar.h" />
-		<Unit filename="lista.c">
+		<Unit filename="listas.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="lista.h" />
+		<Unit filename="listas.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

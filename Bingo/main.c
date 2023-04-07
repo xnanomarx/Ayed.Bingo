@@ -7,6 +7,8 @@ int main()
 {
 
     PtrLista listaAgencias=crearLista();
+    PtrLista listaJugadores=crearLista();
+    PtrLista listaCartones=crearLista();
     crearAgencias(listaAgencias);
     int seleccionar=1;
 
