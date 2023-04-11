@@ -7,7 +7,7 @@
 
 
 
-int* jugada20nums(cartonPtr cartonJugador){
+void jugada20nums(cartonPtr cartonJugador){
     srand(time(NULL));
     int* numerosJugada=(int*)obtenerMemoria(sizeof(int)*20);
     bool bandera=true;
@@ -62,3 +62,5 @@ int* jugada20nums(cartonPtr cartonJugador){
     setbuf(stdin, NULL); // Desactiva el búfer de entrada estándar
     getchar();
 }
+
+
