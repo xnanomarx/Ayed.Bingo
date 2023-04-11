@@ -2,7 +2,9 @@
 #include <time.h>
 #include "Agencia.h"
 #include "util.h"
+#include "jugar.h"
 #include <stdbool.h>
+
 
 cartonPtr crearCarton(int* numero,agenciaPtr agencia){
     cartonPtr carton1=(cartonPtr)obtenerMemoria(sizeof(carton));

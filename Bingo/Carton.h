@@ -5,7 +5,6 @@
 #include "Agencia.h"
 #include "util.h"
 
-
 typedef struct carton{
     int* numero;
     char* fechaEmision;
@@ -26,5 +25,7 @@ int* getNumeroCarton(cartonPtr carton);
 char* getDireccion(cartonPtr carton);
 
 void mostrarCarton(cartonPtr carton);
+
+void jugarHastaGanar(cartonPtr carton);
 
 #endif // CARTON_H_INCLUDED
