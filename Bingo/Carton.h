@@ -5,7 +5,6 @@
 #include "Agencia.h"
 #include "util.h"
 
-
 typedef struct carton{
     int* numero;
     char* fechaEmision;
