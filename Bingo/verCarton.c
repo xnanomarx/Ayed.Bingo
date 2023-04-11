@@ -6,8 +6,6 @@
 
 void verCarton(PtrLista listaUsuarios){
 
-    char buffer[256];
-
     for(int i=0;i<longitudLista(listaUsuarios);i++){
         printf("---- Jugador %d ----\n",i+1);
         mostrarJugador(getDatoLista(listaUsuarios,i));
