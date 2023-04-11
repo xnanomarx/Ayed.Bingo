@@ -3,6 +3,7 @@
 #include <time.h>
 #include "listas.h"
 #include "Agencia.h"
+#include "Carton.h"
 
 int main()
 {
@@ -58,6 +59,7 @@ int main()
         case 5:
             system("cls");
             jugarHastaGanar(getCartonJugador(getDatoLista(listaUsuarios,0)));
+            system("cls");
             break;
         case 0:
             break;
