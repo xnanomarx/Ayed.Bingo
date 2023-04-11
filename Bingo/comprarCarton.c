@@ -10,7 +10,7 @@
 
     int seleccionar=1;
     int* numCarton=(int*)malloc(sizeof(int)*8);
-
+    cartonPtr carton1;
 
     while(seleccionar!=0){
         printf("1. Comprar carton automatico\n");
@@ -20,7 +20,7 @@
         scanf("%d", &seleccionar);
         switch(seleccionar){
         case 1:
-            cartonPtr carton1=crearCartonAleatorio(agencia);
+            carton1=crearCartonAleatorio(agencia);
             system("cls");
             printf("Creando carton automatico... Por favor espere\n");
             sleep(3);

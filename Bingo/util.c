@@ -18,3 +18,18 @@ char* crearStringDinamico(char* literal){
     strcpy(buffer,literal);
     return buffer;
 }
+
+void ordenarVector(int* vector1, int tamanio){
+    int i;
+    int aux;
+    int k;
+    for (i = 1; i < tamanio; i++) {
+        aux= vector1[i];
+        k = i - 1;
+        while (k >= 0 && vector1[k] > aux) {
+            vector1[k + 1] = vector1[k];
+            k = k - 1;
+        }
+        vector1[k + 1] = aux;
+    }
+}

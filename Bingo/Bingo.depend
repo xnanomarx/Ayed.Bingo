@@ -222,11 +222,12 @@
 	<stdlib.h>
 	"util.h"
 
-1680815729 c:\users\user\documents\tp final\ayed.bingo\bingo\util.h
+1681240990 c:\users\user\documents\tp final\ayed.bingo\bingo\util.h
 
-1680818069 source:c:\users\user\documents\tp final\ayed.bingo\bingo\carton.c
+1681241071 source:c:\users\user\documents\tp final\ayed.bingo\bingo\carton.c
 	"Carton.h"
-	"time.h"
+	<time.h>
+	"util.h"
 
 1680818069 c:\users\user\documents\tp final\ayed.bingo\bingo\carton.h
 	<stdio.h>
@@ -234,7 +235,14 @@
 	"Agencia.h"
 	"util.h"
 
-1680815729 source:c:\users\user\documents\tp final\ayed.bingo\bingo\comprarcarton.c
+1681240589 source:c:\users\user\documents\tp final\ayed.bingo\bingo\comprarcarton.c
+	<stdlib.h>
+	<stdio.h>
+	"comprarCarton.h"
+	"Carton.h"
+	"Agencia.h"
+	"listas.h"
+	<time.h>
 
 1680815729 source:c:\users\user\documents\tp final\ayed.bingo\bingo\crearusuario.c
 
@@ -247,7 +255,11 @@
 1680815729 c:\users\user\documents\tp final\ayed.bingo\bingo\jugador.h
 	"Carton.h"
 
-1680815729 source:c:\users\user\documents\tp final\ayed.bingo\bingo\jugar.c
+1681240990 source:c:\users\user\documents\tp final\ayed.bingo\bingo\jugar.c
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+	"Carton.h"
 
 1680818057 source:c:\users\user\documents\tp final\ayed.bingo\bingo\main.c
 	<stdio.h>
@@ -255,7 +267,7 @@
 	<time.h>
 	"listas.h"
 
-1680818057 c:\users\user\documents\tp final\ayed.bingo\bingo\listas.h
+1680820270 c:\users\user\documents\tp final\ayed.bingo\bingo\listas.h
 	<stdbool.h>
 	"nodo.h"
 	"util.h"
@@ -264,7 +276,7 @@
 	<stdio.h>
 	<stdlib.h>
 
-1680818057 source:c:\users\user\documents\tp final\ayed.bingo\bingo\util.c
+1681240990 source:c:\users\user\documents\tp final\ayed.bingo\bingo\util.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -274,7 +286,7 @@
 
 1680815729 source:c:\users\user\documents\tp final\ayed.bingo\bingo\vercarton.c
 
-1680818057 source:c:\users\user\documents\tp final\ayed.bingo\bingo\creacionagencias.c
+1680820270 source:c:\users\user\documents\tp final\ayed.bingo\bingo\creacionagencias.c
 	<stdlib.h>
 	<stdio.h>
 	"listas.h"
@@ -291,4 +303,6 @@
 	"listas.h"
 	"util.h"
 	"nodo.h"
+
+1680818069 c:\users\user\documents\tp final\ayed.bingo\bingo\comprarcarton.h
 

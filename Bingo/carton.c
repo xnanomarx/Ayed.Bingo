@@ -1,5 +1,6 @@
 #include "Carton.h"
-#include "time.h"
+#include <time.h>
+#include "util.h"
 
 cartonPtr crearCarton(int* numero,agenciaPtr agencia){
     cartonPtr carton1=(cartonPtr)obtenerMemoria(sizeof(carton));
@@ -7,6 +8,7 @@ cartonPtr crearCarton(int* numero,agenciaPtr agencia){
     for(int i=0;i<8;i++){
         carton1->numero[i]=numero[i];
     }
+    ordenarVector(carton1->numero, 8);
     carton1->agenciaCarton=agencia;
 
     return carton1;
@@ -19,6 +21,7 @@ cartonPtr crearCartonAleatorio(agenciaPtr agencia){
     for(int i=0;i<8;i++){
         cartonAle->numero[i]=rand()%100;
     }
+    ordenarVector(cartonAle->numero, 8);
     cartonAle->agenciaCarton=agencia;
 
     return cartonAle;
