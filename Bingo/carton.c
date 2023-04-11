@@ -1,5 +1,6 @@
 #include "Carton.h"
 #include <time.h>
+#include "Agencia.h"
 #include "util.h"
 
 cartonPtr crearCarton(int* numero,agenciaPtr agencia){
@@ -39,15 +40,15 @@ int* getNumeroCarton(cartonPtr carton){
     return carton->numero;
 }
 
-char* getDireccion(cartonPtr carton){
-    return carton->agenciaCarton->direccion;
+agenciaPtr getAgencia(cartonPtr carton){
+    return carton->agenciaCarton;
 }
 
 void mostrarCarton(cartonPtr carton){
     system("cls");
     printf("------ CARTON -------\n");
-    printf("Vendido por: %s\n",carton->agenciaCarton->nombreAgencia);
-    printf("Direccion: %s\n ------ JUGADA ------\n",carton->agenciaCarton->direccion);
-    printf("%d &d &d &d &d &d &d &d\n",carton->numero[0],carton->numero[1],carton->numero[2],carton->numero[3],carton->numero[4],carton->numero[5],carton->numero[6],carton->numero[7]);
+      printf("Vendido por: %s\n",getNombreAgencia(carton->agenciaCarton));
+    printf("Direccion: %s\n ------ JUGADA ------\n",getDireccionAgencia(carton->agenciaCarton));
+    printf("%d %d %d %d %d %d %d %d\n",carton->numero[0],carton->numero[1],carton->numero[2],carton->numero[3],carton->numero[4],carton->numero[5],carton->numero[6],carton->numero[7]);
 }
 
