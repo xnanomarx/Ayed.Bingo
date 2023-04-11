@@ -56,6 +56,7 @@ int main()
             break;
         case 5:
             system("cls");
+            jugarHastaGanar(getCartonJugador(getDatoLista(listaUsuarios,0)));
             break;
         case 0:
             break;

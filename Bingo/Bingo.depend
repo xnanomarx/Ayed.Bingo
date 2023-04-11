@@ -155,13 +155,14 @@
 
 1681242136 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\util.h
 
-1681243430 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.c
+1681246008 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.c
 	"Carton.h"
 	<time.h>
 	"Agencia.h"
 	"util.h"
+	"jugar.h"
 
-1681244236 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.h
+1681246008 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.h
 	<stdio.h>
 	<stdlib.h>
 	"Agencia.h"
@@ -208,7 +209,7 @@
 	"jugador.h"
 	"listas.h"
 
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\main.c
+1681245448 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
@@ -367,4 +368,6 @@
 	"listas.h"
 	"util.h"
 	"nodo.h"
+
+1680798170 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugar.h
 

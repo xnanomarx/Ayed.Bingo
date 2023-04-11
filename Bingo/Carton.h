@@ -26,4 +26,6 @@ char* getDireccion(cartonPtr carton);
 
 void mostrarCarton(cartonPtr carton);
 
+void jugarHastaGanar(cartonPtr carton);
+
 #endif // CARTON_H_INCLUDED
