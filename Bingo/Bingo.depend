@@ -128,18 +128,20 @@
 	"listas.h"
 	<time.h>
 
-1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
+1681247018 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
 	<stdlib.h>
 	<stdio.h>
 	<time.h>
 	"Carton.h"
+	<stdbool.h>
 
-1681246825 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\main.c
+1681248538 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"listas.h"
 	"Agencia.h"
+	"Carton.h"
 
 1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.c
 	<stdio.h>
