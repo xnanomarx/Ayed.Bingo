@@ -287,13 +287,13 @@
 	"Carton.h"
 	"listas.h"
 
-1681242136 source:c:\users\user\documents\tp final\ayed.bingo\bingo\jugar.c
+1681244625 source:c:\users\user\documents\tp final\ayed.bingo\bingo\jugar.c
 	<stdlib.h>
 	<stdio.h>
 	<time.h>
 	"Carton.h"
 
-1681242384 source:c:\users\user\documents\tp final\ayed.bingo\bingo\main.c
+1681246075 source:c:\users\user\documents\tp final\ayed.bingo\bingo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>

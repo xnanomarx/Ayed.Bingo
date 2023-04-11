@@ -38,6 +38,7 @@ int main()
         case 1:
             system("cls");
             jugada20nums(getCartonJugador(getDatoLista(listaUsuarios, 0)));
+            system("cls");
             break;
         case 2:
             system("cls");
