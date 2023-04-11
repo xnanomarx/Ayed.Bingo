@@ -95,7 +95,7 @@
 
 1680798070 source:c:\users\admin\onedrive\documentos\ayed\bingo\vercarton.c
 
-1681243514 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
+1681246935 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
 	"Agencia.h"
 	<stdio.h>
 	<stdlib.h>
@@ -119,7 +119,7 @@
 	"Agencia.h"
 	"util.h"
 
-1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
+1681246935 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
 	<stdlib.h>
 	<stdio.h>
 	"comprarCarton.h"
@@ -149,7 +149,7 @@
 
 1681241998 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vecesparaganar.c
 
-1681243426 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
+1681246935 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
 	<stdlib.h>
 	<stdio.h>
 	"Carton.h"

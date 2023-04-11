@@ -4,7 +4,7 @@
 #include "Carton.h"
 #include <stdbool.h>
 
-int* jugada20nums(cartonPtr cartonJugador){
+void jugada20nums(cartonPtr cartonJugador){
     srand(time(NULL));
     int* numerosJugada=(int*)obtenerMemoria(sizeof(int)*20);
     bool bandera=true;
