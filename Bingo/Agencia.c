@@ -30,7 +30,7 @@ char* getNombreAgencia(agenciaPtr agencia1){
     return(agencia1->nombreAgencia);
 }
 
-char* getDireccionAgencia(agenciaPtr agencia1){
+ char* getDireccionAgencia(agenciaPtr agencia1){
     return(agencia1->direccion);
 }
 

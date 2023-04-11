@@ -11,6 +11,7 @@
     int seleccionar=1;
     int* numCarton=(int*)malloc(sizeof(int)*8);
     cartonPtr carton1;
+    int numElegido;
 
     while(seleccionar!=0){
         printf("1. Comprar carton automatico\n");
@@ -33,7 +34,8 @@
             system("cls");
             for(int i=0;i<8;i++){
                 printf("Ingrese el %dº numero: ", i+1);
-                scanf("%d", numCarton[i]);
+                scanf("%d", &numElegido);
+                numCarton[i]=numElegido;
             }
             cartonPtr carton2=crearCarton(numCarton, agencia);
             agregarDatoLista(listaCartones, carton2);

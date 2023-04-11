@@ -95,81 +95,31 @@
 
 1680798070 source:c:\users\admin\onedrive\documentos\ayed\bingo\vercarton.c
 
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
+1681243514 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
 	"Agencia.h"
 	<stdio.h>
 	<stdlib.h>
 
-1680809879 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.h
+1681243076 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\agencia.h
 	<stdio.h>
 	<stdlib.h>
 	"util.h"
 
-1680809879 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.h
+1681243076 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.h
 
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.c
-	"Carton.h"
-
-1680809879 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.h
-	<stdio.h>
-	<stdlib.h>
-	"Agencia.h"
-	"util.h"
-
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
-
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
-
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\main.c
-	<stdio.h>
-	<stdlib.h>
-	<time.h>
-
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.c
-	<stdio.h>
-	<stdlib.h>
-	"util.h"
-
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vecesparaganar.c
-
-1680809879 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
-
-1680810649 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugador.c
-	<stdlib.h>
-	<stdio.h>
-	"util.h"
-	"jugador.h"
-
-1680810578 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugador.h
-	"Carton.h"
-
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
-	"Agencia.h"
-	<stdio.h>
-	<stdlib.h>
-
-1681242136 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\agencia.h
-	<stdio.h>
-	<stdlib.h>
-	"util.h"
-
-1681242136 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\util.h
-
-1681247936 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.c
+1681243402 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.c
 	"Carton.h"
 	<time.h>
 	"Agencia.h"
 	"util.h"
-	"jugar.h"
-	<stdbool.h>
 
-1681246008 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.h
+1680817892 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\carton.h
 	<stdio.h>
 	<stdlib.h>
 	"Agencia.h"
 	"util.h"
 
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
+1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
 	<stdlib.h>
 	<stdio.h>
 	"comprarCarton.h"
@@ -178,46 +128,92 @@
 	"listas.h"
 	<time.h>
 
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugador.c
-	<stdlib.h>
-	<stdio.h>
-	"util.h"
-	"jugador.h"
-	"listas.h"
-
-1681242136 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugador.h
-	"Carton.h"
-	"listas.h"
-
-1681246823 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
+1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
 	<stdlib.h>
 	<stdio.h>
 	<time.h>
 	"Carton.h"
-	<stdbool.h>
 
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\util.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"util.h"
-
-1680798115 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\vecesparaganar.c
-
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
-	<stdlib.h>
-	<stdio.h>
-	"Carton.h"
-	"jugador.h"
-	"listas.h"
-
-1681248020 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\main.c
+1681246825 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\main.c
 	<stdio.h>
 	<stdlib.h>
 	<time.h>
 	"listas.h"
 	"Agencia.h"
+
+1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\util.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"util.h"
+
+1681241998 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vecesparaganar.c
+
+1681243426 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
+	<stdlib.h>
+	<stdio.h>
 	"Carton.h"
+	"jugador.h"
+	"listas.h"
+
+1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugador.c
+	<stdlib.h>
+	<stdio.h>
+	"util.h"
+	"jugador.h"
+	"listas.h"
+
+1681243076 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\jugador.h
+	"Carton.h"
+	"listas.h"
+
+1680808949 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\agencia.c
+	"Agencia.h"
+	<stdio.h>
+	<stdlib.h>
+
+1680563490 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\agencia.h
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680319755 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\util.h
+
+1680811600 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.c
+	"Carton.h"
+
+1680816239 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\carton.h
+	<stdio.h>
+	<stdlib.h>
+	"Agencia.h"
+	"util.h"
+
+1680797961 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.c
+
+1680812487 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugador.c
+	<stdlib.h>
+	<stdio.h>
+	"util.h"
+	"jugador.h"
+
+1680812487 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugador.h
+	"Carton.h"
+
+1680798026 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugar.c
+
+1680318162 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\util.c
+	<stdio.h>
+	<stdlib.h>
+	"util.h"
+
+1680798115 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\vecesparaganar.c
+
+1680798070 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\vercarton.c
+
+1680812487 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
 
 1680814070 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\nodo.c
 	<stdio.h>
@@ -225,7 +221,7 @@
 	"nodo.h"
 	"util.h"
 
-1681242136 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\nodo.h
+1680812487 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\nodo.h
 	<stdio.h>
 	<stdlib.h>
 
@@ -347,30 +343,38 @@
 
 1680818069 c:\users\user\documents\tp final\ayed.bingo\bingo\comprarcarton.h
 
-1681242136 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.h
+1680817903 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\comprarcarton.h
 
-1681242136 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\listas.h
+1680878629 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\listas.h
 	<stdbool.h>
 	"nodo.h"
 	"util.h"
 
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\creacionagencias.c
+1680816059 c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\nodo.h
+	<stdio.h>
+	<stdlib.h>
+
+1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\creacionagencias.c
 	<stdlib.h>
 	<stdio.h>
 	"listas.h"
 	"Agencia.h"
 
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\crearusuario.c
+1681243076 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\crearusuario.c
 	<stdio.h>
 	<stdlib.h>
 	"listas.h"
 	"jugador.h"
 
-1681242136 source:c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\listas.c
+1680816059 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\listas.c
 	<stdbool.h>
 	"listas.h"
 	"util.h"
 	"nodo.h"
 
-1680798170 c:\users\admin\onedrive\documentos\github\ayed.bingo\bingo\jugar.h
+1680816059 source:c:\users\legio\onedrive\documentos\github\ayed.bingo\bingo\nodo.c
+	<stdio.h>
+	<stdlib.h>
+	"nodo.h"
+	"util.h"
 
