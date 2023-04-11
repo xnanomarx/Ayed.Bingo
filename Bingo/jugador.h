@@ -1,11 +1,12 @@
 #ifndef JUGADOR_H_INCLUDED
 #define JUGADOR_H_INCLUDED
 #include "Carton.h"
+#include "listas.h"
 
 typedef struct jugador{
     char* nombre;
     char* dni;
-    cartonPtr cartonJugador;
+    cartonPtr carton1;
 }jugador;
 
 typedef jugador* jugadorPtr;

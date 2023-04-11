@@ -6,7 +6,6 @@ agenciaPtr crearAgencia(char* nombreAgencia,char* direccion){
     agenciaPtr agencia1=(agenciaPtr)obtenerMemoria(sizeof(agencia));
     agencia1->nombreAgencia=crearStringDinamico(nombreAgencia);
     agencia1->direccion=crearStringDinamico(direccion);
-
     return agencia1;
 }
 
@@ -32,5 +31,10 @@ char* getNombreAgencia(agenciaPtr agencia1){
 }
 
 char* getDireccionAgencia(agenciaPtr agencia1){
-    return(agencia1->nombreAgencia);
+    return(agencia1->direccion);
+}
+
+void mostrarAgencia(agenciaPtr agencia1){
+    printf("Nombre de la agencia: %s\n",agencia1->nombreAgencia);
+    printf("Direccion de la agencia: %s\n", agencia1->direccion);
 }

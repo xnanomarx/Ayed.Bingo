@@ -2,15 +2,28 @@
 #include <stdlib.h>
 #include <time.h>
 #include "listas.h"
+#include "Agencia.h"
 
 int main()
 {
 
     PtrLista listaAgencias=crearLista();
-    PtrLista listaJugadores=crearLista();
     PtrLista listaCartones=crearLista();
+    PtrLista listaUsuarios=crearLista();
     crearAgencias(listaAgencias);
     int seleccionar=1;
+    int queAgencia;
+    for(int i=0; i<longitudLista(listaAgencias);i++){
+        printf("--- Agencia %d ---\n",i+1);
+        mostrarAgencia(getDatoLista(listaAgencias,i));
+        printf("\n");
+    }
+    printf("Seleccione una agencia para jugar: ");
+    scanf("%d",&queAgencia);
+    queAgencia--;
+
+    agenciaPtr agencia1=crearAgencia(getNombreAgencia(getDatoLista(listaAgencias,queAgencia)),getDireccionAgencia(getDatoLista(listaAgencias,queAgencia)));
+    system("cls");
 
     while(seleccionar!=0){
         printf("1. Jugar\n");
@@ -27,11 +40,17 @@ int main()
             break;
         case 2:
             system("cls");
+            comprarCarton(listaCartones,agencia1);
+            system("cls");
             break;
         case 3:
             system("cls");
+            crearUsuario(listaUsuarios,listaCartones);
+            system("cls");
             break;
         case 4:
+            system("cls");
+            verCarton(listaUsuarios);
             system("cls");
             break;
         case 5:

@@ -23,4 +23,6 @@ char* getNombreAgencia(agenciaPtr agencia1);
 
 char* getDireccionAgencia(agenciaPtr agencia1);
 
+void mostrarAgencia(agenciaPtr agencia1);
+
 #endif // AGENCIA_H_INCLUDED
