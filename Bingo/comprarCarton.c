@@ -10,7 +10,6 @@
 
     int seleccionar=1;
     int* numCarton=(int*)malloc(sizeof(int)*8);
-    int numElegido;
     cartonPtr carton1;
 
     while(seleccionar!=0){
@@ -21,21 +20,20 @@
         scanf("%d", &seleccionar);
         switch(seleccionar){
         case 1:
+            carton1=crearCartonAleatorio(agencia);
             system("cls");
             printf("Creando carton automatico... Por favor espere\n");
-            carton1=crearCartonAleatorio(agencia);
-            sleep(2);
+            sleep(3);
             printf("Carton creado con exito");
             sleep(2);
             system("cls");
             agregarDatoLista(listaCartones, carton1);
-            break;
+        break;
         case 2:
             system("cls");
             for(int i=0;i<8;i++){
-                printf("Ingrese el numero %d: ", i+1);
-                scanf("%d", &numElegido);
-                numCarton[i]=numElegido;
+                printf("Ingrese el %dº numero: ", i+1);
+                scanf("%d", numCarton[i]);
             }
             cartonPtr carton2=crearCarton(numCarton, agencia);
             agregarDatoLista(listaCartones, carton2);

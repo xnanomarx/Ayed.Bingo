@@ -13,4 +13,6 @@ void* obtenerMemoria(size_t tamanio);
 
 char* crearStringDinamico(char* literal);
 
+void ordenarVector(int* vectorAOrdenar, int tamanio);
+
 #endif // UTIL_H_INCLUDED
